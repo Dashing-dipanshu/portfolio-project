@@ -1,0 +1,38 @@
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.highlight-box {
+  background-color: #ffffff;
+  border: 2px solid #0077b6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.highlight-box h3 {
+  color: #004d40;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.highlight-box p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.highlight-box a {
+  color: #0077b6;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.highlight-box a:hover {
+  color: #004d40;
+}
